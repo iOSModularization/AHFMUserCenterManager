@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AHFMUserCenterManager_Example' do
+  pod 'AHFMUserCenterManager', :path => '../'
+
+  target 'AHFMUserCenterManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
