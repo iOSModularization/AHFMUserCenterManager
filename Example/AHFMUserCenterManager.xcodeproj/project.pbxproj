@@ -352,11 +352,33 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-AHFMUserCenterManager_Example/Pods-AHFMUserCenterManager_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AHDataModel/AHDataModel.framework",
+				"${BUILT_PRODUCTS_DIR}/AHFMBottomPlayerServices/AHFMBottomPlayerServices.framework",
+				"${BUILT_PRODUCTS_DIR}/AHFMDataCenter/AHFMDataCenter.framework",
+				"${BUILT_PRODUCTS_DIR}/AHFMDownloadCenterServices/AHFMDownloadCenterServices.framework",
+				"${BUILT_PRODUCTS_DIR}/AHFMHistoryVCServices/AHFMHistoryVCServices.framework",
+				"${BUILT_PRODUCTS_DIR}/AHFMModuleManager/AHFMModuleManager.framework",
+				"${BUILT_PRODUCTS_DIR}/AHFMServices/AHFMServices.framework",
+				"${BUILT_PRODUCTS_DIR}/AHFMShowPageServices/AHFMShowPageServices.framework",
 				"${BUILT_PRODUCTS_DIR}/AHFMUserCenterManager/AHFMUserCenterManager.framework",
+				"${BUILT_PRODUCTS_DIR}/AHFMUserCenterServices/AHFMUserCenterServices.framework",
+				"${BUILT_PRODUCTS_DIR}/AHServiceRouter/AHServiceRouter.framework",
+				"${BUILT_PRODUCTS_DIR}/UIDeviceExtension/UIDeviceExtension.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AHDataModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AHFMBottomPlayerServices.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AHFMDataCenter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AHFMDownloadCenterServices.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AHFMHistoryVCServices.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AHFMModuleManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AHFMServices.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AHFMShowPageServices.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AHFMUserCenterManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AHFMUserCenterServices.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AHServiceRouter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIDeviceExtension.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

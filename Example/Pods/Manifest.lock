@@ -1,0 +1,53 @@
+PODS:
+  - AHDataModel (0.4.1)
+  - AHFMBottomPlayerServices (0.1.0):
+    - AHFMServices
+  - AHFMDataCenter (0.1.5):
+    - AHDataModel
+    - UIDeviceExtension
+  - AHFMDownloadCenterServices (0.1.0):
+    - AHFMServices
+  - AHFMHistoryVCServices (0.1.0):
+    - AHFMServices
+  - AHFMModuleManager (0.2.0)
+  - AHFMServices (0.3.0)
+  - AHFMShowPageServices (0.1.2):
+    - AHFMServices
+  - AHFMUserCenterManager (0.1.0):
+    - AHFMBottomPlayerServices
+    - AHFMDataCenter
+    - AHFMDownloadCenterServices
+    - AHFMHistoryVCServices
+    - AHFMModuleManager
+    - AHFMShowPageServices
+    - AHFMUserCenterServices
+    - AHServiceRouter
+  - AHFMUserCenterServices (0.1.0):
+    - AHFMServices
+  - AHServiceRouter (0.5.3)
+  - UIDeviceExtension (0.1.0)
+
+DEPENDENCIES:
+  - AHFMUserCenterManager (from `../`)
+
+EXTERNAL SOURCES:
+  AHFMUserCenterManager:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AHDataModel: b125e87955b1c57c6d07ae824d5c5f559cea433a
+  AHFMBottomPlayerServices: 62e83815ed8969376d047556382931cc46841de5
+  AHFMDataCenter: aaa9092d09ccfc28163dbf9dfcb5aa89d9619727
+  AHFMDownloadCenterServices: 23cf7d1977796512206391c344b8b1e95d1e3b05
+  AHFMHistoryVCServices: 8d3a6de8ab3c5fd13305b2a914134e675d526541
+  AHFMModuleManager: 301c8a5945a301528d5cba55e4809428ef896141
+  AHFMServices: 7c2c52fd7bd0b604fdab05cc9adb13129c218b60
+  AHFMShowPageServices: f5bc995a70d155194528652563ebaf3b94f96fb3
+  AHFMUserCenterManager: 6fdcfc8382373857139c2e3197e27a30855e4795
+  AHFMUserCenterServices: 0b6848f9a7bd111ed13ccc31850adb23d6b59691
+  AHServiceRouter: b7b49e712cf8d697ded8c48151cfcd2ee103a562
+  UIDeviceExtension: 53d1d2177714a3e434e755b6c0fb66678595fce4
+
+PODFILE CHECKSUM: 0ccb8145b9ec3a494751551c6c2c2bdab8cd2711
+
+COCOAPODS: 1.3.0.beta.2

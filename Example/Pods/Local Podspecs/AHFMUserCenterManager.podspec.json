@@ -1,0 +1,48 @@
+{
+  "name": "AHFMUserCenterManager",
+  "version": "0.1.0",
+  "summary": "A short description of AHFMUserCenterManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ivsall2012/AHFMUserCenterManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ivsall2012": "ivsall2012@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ivsall2012/AHFMUserCenterManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AHFMUserCenterManager/Classes/**/*",
+  "dependencies": {
+    "AHServiceRouter": [
+
+    ],
+    "AHFMModuleManager": [
+
+    ],
+    "AHFMDataCenter": [
+
+    ],
+    "AHFMUserCenterServices": [
+
+    ],
+    "AHFMBottomPlayerServices": [
+
+    ],
+    "AHFMShowPageServices": [
+
+    ],
+    "AHFMHistoryVCServices": [
+
+    ],
+    "AHFMDownloadCenterServices": [
+
+    ]
+  }
+}
